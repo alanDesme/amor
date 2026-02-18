@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Matas 💘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Música -->
+<audio id="musica" autoplay loop>
+    <source src="mematas.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Corazones -->
+<div id="corazones"></div>
+
+<div class="contenedor">
+    <h1>Me matas de amor 💖</h1>
+
+    <div class="imagen" onclick="animarFoto()">
+        <img src="imagen.png" alt="Nuestro amor">
+    </div>
+
+    <p id="mensaje">
+        Toca un botón 💌
+    </p>
+
+    <div class="botones">
+        <button onclick="mensaje1()">💗 Mensaje 1</button>
+        <button onclick="mensaje2()">🌸 Mensaje 2</button>
+        <button onclick="mensaje3()">💞 Mensaje 3</button>
+    </div>
+
+    <a class="compartir" href="#" onclick="compartir()">🔗 Compartir</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
