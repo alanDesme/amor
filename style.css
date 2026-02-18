@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
     background:
-        url("https://i.imgur.com/8YqZ8JH.png"),
+        url("img.webp"),
         linear-gradient(135deg, #ff9a9e, #fad0c4);
     background-size: 160px, cover;
     background-repeat: repeat, no-repeat;
@@ -97,4 +97,5 @@ p {
 @media (max-width: 480px) {
     h1 { font-size: 22px; }
     p { font-size: 16px; }
+
 }
